@@ -18,7 +18,8 @@ Lista2 *criaNo(int valor);
 /* Função que insere um novo nó no inicio da Lista2 */
 Lista2 *insereInicio(Lista2 *L, int valor);
 
-
+/* Função que mostra no console a lista completa */
+void imprime( Lista2 *L );
 
 
 #endif

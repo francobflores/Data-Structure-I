@@ -23,3 +23,16 @@ Lista2 *insereInicio(Lista2 *L, int valor)
 
 	return L;
 }
+
+void imprime( Lista2 *L )
+{
+	Lista2 *aux = L;
+	while(aux != NULL)
+	{
+		printf("[%i] ", aux->chave);
+		aux = aux->prox;
+	}
+	printf("\n");
+
+}
+
