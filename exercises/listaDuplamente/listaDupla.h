@@ -18,8 +18,22 @@ Lista2 *criaNo(int valor);
 /* Função que insere um novo nó no inicio da Lista2 */
 Lista2 *insereInicio(Lista2 *L, int valor);
 
+/*Função que insere um novo nó no final da Lista2 */
+Lista2 *insereFinal(Lista2 *L, int valor);
+
+/*Função que insere um novo nó ordenadamente na Lista2 */
+Lista2 *insereOrd(Lista2 *L, int valor);
+
 /* Função que mostra no console a lista completa */
 void imprime( Lista2 *L );
 
+/* Função que exclui um nó no incio da Lista2 */
+Lista2 *excluiInicio(Lista2 *L);
+
+/* Funcão de busca uma chave em uma lista não ordenada */
+Lista2 *buscaLista( Lista2 *L, int valor );
+
+/* Fução de busca uma chave em uma lista ordenada */
+Lista2 *buscaListaOrd(Lista2 *L, int valor);
 
 #endif
